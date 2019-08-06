@@ -99,6 +99,9 @@ function validateError(fname, data) {
 
     return num;
 }
+
+
+
 function hideError(el) {
     var sp = 400;
     if ($(el).hasClass('input_error')) {
